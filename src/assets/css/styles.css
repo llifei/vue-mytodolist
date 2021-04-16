@@ -1,0 +1,155 @@
+body{
+    margin:0;
+    padding: 0;
+    font-size: 16px;
+    background: white;
+}
+header{
+    height: 54px;
+    background:#333;
+    background: rgba(17, 17, 17, 0.89);
+}
+section{
+    margin: 0 auto;
+    position: relative;
+}
+label{
+    float: left;
+    width: 100px;
+    line-height: 54px;
+    color: rgb(245, 248, 248);
+    font-size: 24px;
+    cursor: pointer;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+header input{
+    width:50%;
+    height:28px;
+    margin-top:12px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: 0 1px 0 rgba(255,255,255,0.24)
+        ,0 1px 6px rgba(0,0,0,0.45);
+    border:none;
+}
+header button{
+    height:31.25px;
+    position: absolute;
+    margin-top: 11.5px;
+    width:15%;
+    background: #0da6ec;
+    border:none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color:white;
+    font-weight: bold;
+}
+button,input:focus{
+    outline-width:0;
+}
+h2{
+    position: relative;
+}
+h2 span{
+    position: absolute;
+    display: inline-block;
+    top: 2px;
+    right: 5px;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    background: #E6E6FA;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+ol,ul{
+    padding: 0;
+    list-style: none;
+}
+li input{
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+p{
+    margin: 0;
+}
+
+li{
+    height: 35px;
+    line-height: 35px;
+    background: #fff;
+    position: relative;
+    margin-bottom: 15px;
+    padding: 0 45px;
+    border-radius: 10px;
+    border-left: 5px solid #0da6ec;
+    ;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.07);
+}
+/* ol li{
+    cursor: move;
+} */
+ul li{
+    border-left: 5px solid #999;
+    opacity: 0.5;
+    text-decoration: line-through;
+}
+li a{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    border-radius: 14px;
+    border: 6px double #FFF;
+    background: #CCC;
+    line-height: 14px;
+    text-align: center;
+    color:#FFF;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+footer{
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    position: fixed;
+    bottom: 8px;
+    left:50%;
+    transform: translate(-50%);
+}
+#clear{
+    color: rgb(245, 14, 14);
+    text-decoration: none;
+    /* color:#999; */
+}
+#address{
+    color:#666;
+    text-decoration: none;
+}
+footer a:hover{
+    cursor: pointer;
+}
+@media screen and (max-device-width: 620px){
+    section{
+        width: 96%;
+        padding: 0.2%;
+    }
+}
+@media screen and (min-width:620px){
+    section{
+        width: 600px;
+        padding: 0 10px;
+    }
+}
